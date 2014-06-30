@@ -4,8 +4,8 @@ cezipsDatePicker
 jQuery date picker plugin. Only korean language now.<br>
 jQuery 팝업 날짜 선택기 플러그인입니다. 현재 한국어만 지원되고 있습니다.
 
-<h3>Usage :</h3>
-<code>
+<strong>Usage :</strong>
+<html>
 <head>
     <link rel="stylesheet" href="css/cezipsDatePicker.css">
 </head>
@@ -21,4 +21,4 @@ jQuery 팝업 날짜 선택기 플러그인입니다. 현재 한국어만 지원
         });
     </script>
 </body>
-</code>
+</html>
