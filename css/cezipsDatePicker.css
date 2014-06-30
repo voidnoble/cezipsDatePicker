@@ -1,0 +1,40 @@
+@charset = "utf-8";
+
+#calendar-container {
+    border: 1px solid black;
+    display: none;
+    padding: 0.5em;
+    position: absolute;
+    z-index: 999999;
+}
+
+.calendar-controlbar {
+    text-align: center;
+}
+
+table.calendar {
+    border-collapse: collapse;
+}
+
+table.calendar th, table.calendar td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.3em;
+}
+
+table.calendar tbody th, table.calendar tbody td {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+table.calendar tbody th, table.calendar tbody td {
+    background-color: ghostwhite;    
+}
+
+table.calendar tbody td.current {
+    background-color: yellow;
+}
+
+table.calendar tbody td.not-current-month {
+    color: silver;
+}
