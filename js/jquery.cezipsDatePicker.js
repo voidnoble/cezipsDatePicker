@@ -221,7 +221,7 @@
         });
         
         // 날짜 클릭시
-        $(calendar).find(".calendar tbody td").click(function() {
+        $(calendar).find(".calendar tbody").on("click", "td", function() {
             var newDate, y = "", m = "", day = $(this).text();
             
             if ( $(this).hasClass("not-current-month") ) {
