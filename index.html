@@ -13,7 +13,10 @@
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.cezipsDatePicker.js"></script>
     <script type="text/javascript">
-        $("#strDate").cezipsDatePicker();
+        $("#strDate").cezipsDatePicker({
+            weeks  : ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],
+            months : ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+        });
     </script>
 </body>
 </html>

@@ -155,7 +155,7 @@
         selectOptions = "";
         for ( var i = 0; i < settings.months.length; i++) {
             var m = settings.months[i];
-            selectOptions += '<option value="'+ m +'">'+ m +'</option>';
+            selectOptions += '<option value="'+ (i+1) +'">'+ m +'</option>';
         }
         // 달 선택상자
         $("#month").append(selectOptions).val(currentDate.month);
