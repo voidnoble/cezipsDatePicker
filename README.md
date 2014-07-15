@@ -1,8 +1,8 @@
 cezipsDatePicker
 ================
 
-jQuery date picker plugin. Only korean language now.<br>
-jQuery 팝업 날짜 선택기 플러그인입니다. 현재 한국어만 지원되고 있습니다.
+jQuery date picker plugin. Default language is korean now.<br>
+jQuery 팝업 날짜 선택기 플러그인입니다. 현재 기본 언어는 한국어입니다.
 
 **Screen Shot :**<br>
 ![cezipsDatePicker](https://raw.githubusercontent.com/cezips76/cezipsDatePicker/master/images/screenshot.png)
